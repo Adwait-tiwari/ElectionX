@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+ElectionX
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is the project for the voting Application which is based on the Blockchain Application 
 
-Try running some of the following tasks:
+Try running some of the following tasks.
+
+To Run the Backened Solidity Code
 
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
+```
+To deploy the code
+
+```shell
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat ignition deploy ./ignition/modules/Dvote.js
+```
+
+To run the Frontened Part 
+```shell
+cd client
+npm run start
 ```
