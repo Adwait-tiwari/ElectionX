@@ -1,0 +1,18 @@
+.main{
+	background : url(../Pictures/pic1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.8;
+	height : 90.5vh;
+	width : 100vw;
+	display: flex;          
+  	justify-content: center;  
+  	align-items: center;  
+  	margin-top: 55px;
+}
+
+.content{
+	text-align: center; 
+	color : white;
+}

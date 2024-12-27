@@ -1,0 +1,23 @@
+.nav__connect{
+	background : none;
+	position : absolute;
+	right : 10px;
+	border : 2px solid white;
+	width : 10vw;
+	height : 6vh;
+	color : white;
+	border-radius : 12px;
+}
+
+.navbar{
+	position : absolute;
+	width : 100vw;
+	top : 0;
+	left : 0;
+}
+
+.content{
+	font-size : 20px;
+	padding : 5px;
+	margin-left : 12px;
+}
